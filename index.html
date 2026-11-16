@@ -510,7 +510,7 @@ var B=[
 ];
 
 /* ---------- state ---------- */
-var st={b:2,t:3},done={},KEY='oge-done';
+var st={b:1,t:1},done={},KEY='oge-done';
 try{var raw=localStorage.getItem(KEY);if(raw)done=JSON.parse(raw)||{}}catch(e){}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(done))}catch(e){}}
 function key(b,t){return b+'-'+t}
